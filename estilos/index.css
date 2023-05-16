@@ -1,0 +1,106 @@
+*{
+    margin: 1%;
+    padding: 1%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#cabecalho{
+    width: 1200px;
+    height: 80px;
+    background-color: rgb(238, 133, 241);
+    float: center;
+}
+#banner{
+  max-width: 100%;
+  height: auto;
+}
+h1{
+    
+    background-color: rgba(0, 0, 0, 0.425);
+    color:rgb(255, 255, 255) 
+    
+}
+h2{
+    
+    background-color: rgba(0, 0, 0, 0.425);
+    color:rgb(255, 255, 255);
+    
+}
+.caixaimagem{
+    width: 150px;
+    height: 50px;
+    background-size: 100% 100%;
+}
+
+/* PROJETO  */
+body {
+    background-image: url(../imagem/imfundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+#imagem {
+    width: 70px;
+    height: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    gap: 30px;
+    background-image: url(../imagem/im3.jpg);
+    background-size: 80% 80%;
+}
+.vest1{
+    width: 150px;
+    height: 150px;
+    padding: 50px;
+    background-image: url(../imagem/im1.jpg);
+    background-size: 100% 100%;
+    color: white;
+    text-align: center;
+}
+.vest2{
+    width: 150px;
+    height: 150px;
+    background-color: aqua;
+    padding: 50px;
+    background-image: url(../imagem/im2.jpg);
+    background-size: 100% 100%;
+    color: rgb(230, 24, 24);
+    text-align: center;
+
+}
+.vest3{
+    width: 150px;
+    height: 150px;
+    background-color: aqua;
+    padding: 50px;
+    background-image: url(../imagem/im3.jpg);
+    background-size: 100% 100%;
+    color: rgb(253, 37, 37);
+    text-align: center;
+
+}
+/* GAP */
+
+
+
+#aligncontentcentergapexample{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    gap: 50px;
+    background-color: rgba(247, 128, 231, 0.712);
+}
+
+#aligncontentspacearoundexample{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    background-color: blueviolet;
+}
+#footer{
+    width: 96%;
+    height: 90px;
+    background-color: rgb(238, 145, 168);
+    float: center;
+}
